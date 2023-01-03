@@ -217,7 +217,7 @@ class _CyclePageState extends State<CyclePage> {
               ),
             ),
             Container(
-                height: 15.h,
+                height: 12.h,
                 alignment: Alignment.topLeft,
                 child: ListView.builder(
                     physics: const BouncingScrollPhysics(),
@@ -238,7 +238,7 @@ class _CyclePageState extends State<CyclePage> {
                               height: 7.h,
                               width: 27.w,
                               margin: EdgeInsets.only(
-                                  left: 2.h, top: 2.h, bottom: 2.h),
+                                  left: 2.h, top: 1.h, bottom: 1.h),
                               child: Icon(
                                 Mood_Icons[index],
                                 color: Colors.grey.shade600,
@@ -255,12 +255,6 @@ class _CyclePageState extends State<CyclePage> {
                     })),
           ]),
         ),
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: Divider(
-            color: Colors.grey.shade600,
-          ),
-        ),
         Container(
           padding: EdgeInsets.symmetric(horizontal: 3.w),
           height: 15.h,
@@ -275,7 +269,7 @@ class _CyclePageState extends State<CyclePage> {
               ),
             ),
             Container(
-                height: 15.h,
+                height: 12.h,
                 alignment: Alignment.topLeft,
                 child: ListView.builder(
                     physics: const BouncingScrollPhysics(),
@@ -296,7 +290,7 @@ class _CyclePageState extends State<CyclePage> {
                               height: 7.h,
                               width: 27.w,
                               margin: EdgeInsets.only(
-                                  left: 2.h, top: 2.h, bottom: 2.h),
+                                  left: 2.h, top: 1.h, bottom: 1.h),
                               child: Icon(
                                 symptopms_Icons[index],
                                 color: Colors.grey.shade600,
